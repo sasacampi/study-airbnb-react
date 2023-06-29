@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import photoGrid from "../img/photoGrid.png"
 
 
-export default function() {
+export default function Hero() {
     return (
         <section className="hero">
             <img src={photoGrid} className="hero--photo" alt="Photo Grid"></img>
