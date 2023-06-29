@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        title: "Revitalize Gut: Low-Carb Vegetarian Diet",
+        title: "Enhance Gut Health",
         description: "You can follow a low-carb diet, even if you’re a vegetarian. A nutritionist and a dietitian share the best low-carb vegeterian foods to eat, ahead.",
         price: 135,
         coverImg: "recipe.png",
