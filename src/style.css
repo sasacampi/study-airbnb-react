@@ -19,10 +19,15 @@ nav {
 
 .gray {
     color: #918E9B;
+    margin-right: 2%;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.space {
+    margin-right: 2%;
 }
 
 .airbnb--logo {
@@ -58,12 +63,13 @@ section {
 .cards-list {
     display: flex;
     flex-wrap: nowrap;
-    gap: 30px;
+    gap: 50px;
     overflow-x: auto;
 }
 
 card {
-    width: 175px;
+    width: 200px;
+    height: 200px;
     font-size: 12px;
     flex: 0 0 auto;         
     display: flex;         
@@ -71,7 +77,9 @@ card {
 }
 
 .card--image {
-    width: 100%;
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
     border-radius: 9px;
     margin-bottom: 9px;
 }
@@ -92,4 +100,13 @@ card {
 
 .card--price {
     margin-top: auto;
+}
+
+.card--ad--title {
+    width: 200px;
+    height: 280px;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }

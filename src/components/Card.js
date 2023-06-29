@@ -8,15 +8,17 @@ export default function Card(props) {
         src={require(`../img/${props.img}`)} className="card--image" alt="Card Image"></img>
       <div className="card--stats">
         <img src={Star} className="card--star" alt="Star"></img>
-        <span>{props.rating}</span>
-        <span className="gray">{props.reviewCount} • </span>
-        <span className="gray">{props.country}</span>
+        <span className="space">{props.rating}</span>
+        <span className="gray">({props.reviewCount}) • </span>
+        <span className="gray">{props.location}</span>
       </div>
 
-      <p>{props.title}</p>
+    <div className="card--ad--title">
+      <p>{props.title}</p> 
       <p>
         <span className="bold">From ${props.price}</span> / person
       </p>
+      </div>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import data from "./data";
 
 export default function App() {
     const cards = data.map(item => {
+       // <Hero />
         
         return (
             <Card
@@ -17,6 +18,7 @@ export default function App() {
                 location={item.location}
                 title={item.title}
                 price={item.price}
+                openSpots={item.openSpots}
             />
             
         )
@@ -29,7 +31,7 @@ export default function App() {
             <section className="cards-list">
                 {cards}
             </section>
-            <Hero />
+           
             
         </div>
     )
