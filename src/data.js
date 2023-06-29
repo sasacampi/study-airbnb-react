@@ -7,7 +7,7 @@ export default [
         coverImg: "recipe.png",
         stats: {
             rating: 3.9,
-            reviewCount: 35
+            reviewCount: 38
         },
         location: "USA",
         openSpots: 0,
@@ -20,10 +20,10 @@ export default [
         coverImg: "yoga.png",
         stats: {
             rating: 4.7,
-            reviewCount: 135
+            reviewCount: 136
         },
         location: "USA",
-        openSpots: 27,
+        openSpots: 0,
     },
     {
         id: 3,
@@ -46,7 +46,7 @@ export default [
         coverImg: "baking.png",
         stats: {
             rating: 4.3,
-            reviewCount: 44
+            reviewCount: 49
         },
         location: "Australia",
         openSpots: 3,

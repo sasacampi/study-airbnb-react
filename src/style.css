@@ -65,15 +65,15 @@ section {
     flex-wrap: nowrap;
     gap: 50px;
     overflow-x: auto;
+    justify-content: center;
 }
 
-card {
-    width: 200px;
-    height: 200px;
-    font-size: 12px;
+.card {
+    position: relative;
+    font-size: 1rem;
     flex: 0 0 auto;         
     display: flex;         
-    flex-direction: column; 
+    flex-direction: column;  
 }
 
 .card--image {
@@ -96,6 +96,7 @@ card {
 
 .card--star {
     height: 14px;
+    margin-right: 2%;
 }
 
 .card--price {
@@ -109,4 +110,14 @@ card {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 4px;
+    font-weight: bold;
 }
