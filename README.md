@@ -22,7 +22,7 @@ Desenvolvimento de um projeto clone do Airbnb baseado no tutorial do FreeCodeCam
 
 ## Licença
 
-[MIT License](https://github.com/harverino/airbnb-react/blob/main/LICENSE)
+[MIT License](https://github.com/sasacampi/airbnb-react/blob/main/LICENSE)
 
 
 ## Aprendizados

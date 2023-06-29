@@ -23,7 +23,7 @@ export default [
             reviewCount: 136
         },
         location: "USA",
-        openSpots: 0,
+        openSpots: 2,
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ export default [
             rating: 4.2,
             reviewCount: 335
         },
-        location: "USA",
+        location: "Online",
         openSpots: 3,
     },
     {
@@ -48,7 +48,7 @@ export default [
             rating: 4.3,
             reviewCount: 49
         },
-        location: "Australia",
+        location: "Online",
         openSpots: 3,
     },
     {
@@ -61,7 +61,7 @@ export default [
             rating: 4.5,
             reviewCount: 147
         },
-        location: "Canada",
+        location: "USA",
         openSpots: 3,
     },
 ]
