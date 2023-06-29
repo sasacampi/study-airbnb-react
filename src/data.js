@@ -52,7 +52,7 @@ export default [
         openSpots: 3,
     },
     {
-        id: 3,
+        id: 5,
         title: "Pro Haircut at Home",
         description: "Lorem Ipsum",
         price: 45,

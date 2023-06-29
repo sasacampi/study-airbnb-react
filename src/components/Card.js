@@ -14,11 +14,11 @@ export default function Card(props) {
     <div className="card">
         {badgeText && <div className="card--badge">{badgeText}</div>}
       <img
-        src={require(`../img/${props.img}`)} className="card--image" alt="Card Image"></img>
+        src={require(`../img/${props.coverImg}`)} className="card--image" alt="Card Image"></img>
       <div className="card--stats">
         <img src={Star} className="card--star" alt="Star"></img>
-        <span className="space">{props.rating}</span>
-        <span className="gray">({props.reviewCount}) • </span>
+        <span className="space">{props.stats.rating}</span>
+        <span className="gray">({props.stats.reviewCount}) • </span>
         <span className="gray">{props.location}</span>
       </div>
 
