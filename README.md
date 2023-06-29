@@ -36,5 +36,5 @@ Também me deparei com dificuldades na resolução de problemas e erros de códi
 
 ## Autores
 
-- [@harverino](https://github.com/harverino)
+- [@sasacampi](https://github.com/sasacampi)
 
