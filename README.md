@@ -4,6 +4,9 @@
 Desenvolvimento de um projeto clone do Airbnb baseado no tutorial do FreeCodeCamp, com o objetivo de praticar e obter uma compreensão mais profunda dos conceitos do React. Foram feitas modificações significativas na base de código original para explorar a funcionalidade de cada componente e melhorar os resultados de aprendizado.
 
 
+## Screenshots
+
+![App Screenshot](https://imgpile.com/images/9SQasN.png)
 
 ## Referência
 
